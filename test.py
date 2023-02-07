@@ -2,7 +2,7 @@ import unittest
 from flask import Flask, session
 from app import db
 from app.models import User
-from app.users.views import users
+from app.auth.views import users
 
 class UsersTest(unittest.TestCase):
     def setUp(self):
